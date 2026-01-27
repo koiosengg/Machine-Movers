@@ -4,6 +4,13 @@ import Provide from "./Home/Provide";
 import About from "./Home/About";
 import Fleet from "./Home/Fleet";
 import Yellow from "./Home/Yellow";
+import Equipment from "./Home/Equipment";
+import Clients from "./Home/Clients";
+import BTS from "./Home/BTS";
+import FAQ from "./Home/FAQ";
+import Reach from "./Home/Reach";
+import Ready from "./Home/Ready";
+import Move from "./Home/Move";
 
 function Home() {
   return (
@@ -11,8 +18,15 @@ function Home() {
       <Banner />
       <Provide />
       <About />
+      <Move />
       <Fleet />
       <Yellow />
+      <Equipment />
+      <Clients />
+      <BTS />
+      <FAQ />
+      <Reach />
+      <Ready />
     </>
   );
 }

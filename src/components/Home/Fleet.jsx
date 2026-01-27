@@ -11,7 +11,9 @@ function Fleet() {
   return (
     <section className="template">
       <header className="template-heading">
-        <h2>What we Provide?</h2>
+        <h2>
+          Our Fleet of Heavy-Duty <br className="desktop" /> Machines
+        </h2>
         <p>
           Lorem ipsum dolor sit amet consectetur. At et consequat nunc nullam.
           Mattis ac arcu sodales id quam urna.
