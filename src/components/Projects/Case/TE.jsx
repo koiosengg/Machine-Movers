@@ -1,0 +1,146 @@
+import React, { useEffect, useRef, useState } from "react";
+import Logo from "../../../assets/Projects/Case/TE/Logo.png";
+import Image1 from "../../../assets/Projects/Case/TE/Image 1.png";
+import Image2 from "../../../assets/Projects/Case/TE/Image 2.png";
+import Image3 from "../../../assets/Projects/Case/TE/Image 3.png";
+import Image4 from "../../../assets/Projects/Case/TE/Image 4.png";
+
+function TE() {
+  const images = [Image1, Image2, Image3, Image4];
+
+  const totalSlides = images.length;
+
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [slideWidth, setSlideWidth] = useState(0);
+
+  const containerRef = useRef(null);
+  const slideRef = useRef(null);
+
+  useEffect(() => {
+    const updateWidth = () => {
+      if (!containerRef.current) return;
+      setSlideWidth(containerRef.current.getBoundingClientRect().width);
+    };
+
+    updateWidth();
+    window.addEventListener("resize", updateWidth);
+
+    return () => window.removeEventListener("resize", updateWidth);
+  }, []);
+
+  useEffect(() => {
+    if (!slideRef.current) return;
+
+    slideRef.current.style.transform = `translate3d(-${activeIndex * slideWidth}px, 0, 0)`;
+  }, [activeIndex, slideWidth]);
+
+  const isFirst = activeIndex === 0;
+  const isLast = activeIndex === totalSlides - 1;
+
+  const handlePrev = () => {
+    if (!isFirst) setActiveIndex((prev) => prev - 1);
+  };
+
+  const handleNext = () => {
+    if (!isLast) setActiveIndex((prev) => prev + 1);
+  };
+
+  return (
+    <article className="projects-case-set">
+      <div className="projects-case-set-heading">
+        <img src={Logo} alt="TE Connectivity Logo" />
+        <h3>TE Connectivity</h3>
+      </div>
+
+      <div className="projects-case-set-container">
+        <div className="projects-case-set-imgs" ref={containerRef}>
+          <div className="projects-case-set-imgs-slide" ref={slideRef}>
+            {images.map((img, index) => (
+              <img key={index} src={img} alt="TE Connectivity Image" />
+            ))}
+          </div>
+
+          <button
+            className="projects-case-set-button projects-case-set-button-left"
+            onClick={!isFirst ? handlePrev : undefined}
+            style={{
+              opacity: isFirst ? 0.3 : 1,
+              cursor: isFirst ? "default" : "pointer",
+              pointerEvents: isFirst ? "none" : "auto",
+            }}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M7.825 13H20V11H7.825L13.425 5.4L12 4L4 12L12 20L13.425 18.6L7.825 13Z"
+                fill="white"
+              />
+            </svg>
+          </button>
+
+          <button
+            className="projects-case-set-button projects-case-set-button-right"
+            onClick={!isLast ? handleNext : undefined}
+            style={{
+              opacity: isLast ? 0.3 : 1,
+              cursor: isLast ? "default" : "pointer",
+              pointerEvents: isLast ? "none" : "auto",
+            }}
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M7.825 13H20V11H7.825L13.425 5.4L12 4L4 12L12 20L13.425 18.6L7.825 13Z"
+                fill="white"
+              />
+            </svg>
+          </button>
+        </div>
+        <div className="projects-case-set-content">
+          <div className="home-reach">
+            <article className="home-reach-set">
+              <h3>Electrical & Electronics Manufatcuring</h3>
+              <p>Industry</p>
+            </article>
+            <article className="home-reach-set">
+              <h3>Whitefield, Bengaluru → Dharwad </h3>
+              <p>Karnataka, India</p>
+            </article>
+          </div>
+          <p className="home-about-para">
+            We successfully executed the complete plant relocation of TE
+            Connectivity from Whitefield, Bengaluru to Dharwad, involving 200+
+            transport trips.
+            <br />
+            The project included dismantling, shifting, unloading, and
+            positioning of heavy and precision machinery such as Bruder presses,
+            punching machines, power presses, assembly lines, material handling
+            systems, and supporting shop-floor equipment.
+          </p>
+          <article className="about-company-set">
+            <div className="about-company-set-text">
+              <h3>Results</h3>
+              <p>
+                End-to-end plant relocation completed safely, on schedule, and
+                without damage, ensuring minimal disruption to client
+                operations.
+              </p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </article>
+  );
+}
+
+export default TE;
