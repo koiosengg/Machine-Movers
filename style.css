@@ -770,6 +770,7 @@ html {
   line-height: normal;
   padding-top: 8px;
   border-top: #d6d6d680 1px solid;
+  text-transform: uppercase;
 }
 
 .home-yellow {
@@ -1457,6 +1458,173 @@ html {
 .projects-tata-img img {
   height: 100%;
   object-fit: cover;
+}
+
+/* Services */
+
+.blue-template {
+  background: var(--Blue-Primary, #030f27);
+}
+
+.blue-template .template-heading h2 {
+  color: var(--White, #fff);
+}
+
+.blue-template .template-heading p {
+  color: var(--Text-Black-text-black-200, #929292);
+}
+
+.services-services {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 44px;
+}
+
+.services-services-text {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.services-services-text h3 {
+  color: var(--Blue-blue-400, #353f52);
+  font-family: "Plus Jakarta Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #353f52;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.services-services-text h3:hover {
+  color: var(--Blue-blue-200, #8b919c);
+}
+
+.services-services-text .active-services-services {
+  color: #fff;
+  border-bottom: 1px solid #fff;
+  cursor: default;
+}
+
+.services-services-text .active-services-services:hover {
+  color: #fff;
+}
+
+.services-services-imgs {
+  width: 50%;
+  display: flex;
+  gap: 4px;
+  aspect-ratio: 622/320;
+  min-height: 100%;
+  align-self: stretch;
+  transition: all 0.3s;
+}
+
+.services-services-img {
+  width: 5%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.services-services-img::before {
+  content: " ";
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  transition: all 0.3s;
+}
+
+.services-services-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s;
+}
+
+.services-services-img.active-services-services-img {
+  width: 100%;
+}
+
+.services-services-img.active-services-services-img::before {
+  opacity: 0;
+}
+
+.services-equipment {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 56px;
+}
+
+.services-equipment-set {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+  align-self: stretch;
+}
+
+.services-equipment-set h3 {
+  color: var(--Blue-blue-300, #565e6e);
+  font-family: "Plus Jakarta Sans";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.services-equipment-set-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.services-equipment-set-container p {
+  width: 100%;
+  color: var(--Blue-blue-100, #b1b5bc);
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+  padding-top: 16px;
+  border-top: 1px solid #d6d6d680;
+}
+
+.services-equipment-set-container span {
+  grid-column: span 2;
+  padding-left: 40px;
+  color: var(--Blue-blue-200, #8b919c);
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 /* Footer */

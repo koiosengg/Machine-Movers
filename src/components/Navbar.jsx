@@ -50,7 +50,9 @@ function Navbar() {
             </svg>
           </div>
           <div className="navbar-link-dropdown">
-            <Link>Heavy Machine Lifting & Shifting</Link>
+            <Link to="services/heavy-machine-lifting-and-shifting">
+              Heavy Machine Lifting & Shifting
+            </Link>
             <Link>Machinery Loading & Unloading</Link>
             <Link>Machinery Installation</Link>
             <Link>Machinery Dismantling</Link>
