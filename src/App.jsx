@@ -8,7 +8,8 @@ import ScrollToTop from "./components/ScrollToTop";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import HeavyMachineLiftingAndShifting from "./components/Services/HeavyMachineLiftingAndShifting";
-
+import MachineryLoadingAndUnloading from "./components/Services/MachineryLoadingAndUnloading";
+import MachineryInstallation from "./components/Services/MachineryInstallation";
 function App() {
   return (
     <BrowserRouter>
@@ -22,6 +23,14 @@ function App() {
           <Route
             path="services/heavy-machine-lifting-and-shifting"
             element={<HeavyMachineLiftingAndShifting />}
+          />
+          <Route
+            path="services/machinery-loading-and-unloading"
+            element={<MachineryLoadingAndUnloading />}
+          />
+          <Route
+            path="services/machinery-installation"
+            element={<MachineryInstallation />}
           />
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<Home />} />

@@ -1,0 +1,75 @@
+import React from "react";
+import OfferingsImage1 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Offerings/Offerings Image 1.png";
+import OfferingsImage2 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Offerings/Offerings Image 2.png";
+import OfferingsImage3 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Offerings/Offerings Image 3.png";
+import OfferingsImage4 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Offerings/Offerings Image 4.png";
+import OfferingsImage5 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Offerings/Offerings Image 5.png";
+import OfferingsImage6 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Offerings/Offerings Image 6.png";
+import OfferingsImage7 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Offerings/Offerings Image 7.png";
+import OfferingsImage8 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Offerings/Offerings Image 8.png";
+
+function Offerings() {
+  return (
+    <section className="template">
+      <header className="template-heading">
+        <h2>Other Key Service Offerings</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur. At et consequat nunc nullam.
+          Mattis ac arcu sodales id quam urna.
+        </p>
+      </header>
+      <div className="home-equipment">
+        <article className="home-fleet-set blue-overlay">
+          <img src={OfferingsImage1} alt="Offerings Image 1" />
+          <div className="home-fleet-set-text">
+            <p>Heavy Machine Lifting & Shifting</p>
+          </div>
+        </article>
+        <article className="home-fleet-set blue-overlay">
+          <img src={OfferingsImage2} alt="Offerings Image 2" />
+          <div className="home-fleet-set-text">
+            <p>Machine Positioning & Alignment</p>
+          </div>
+        </article>
+        <article className="home-fleet-set blue-overlay">
+          <img src={OfferingsImage3} alt="Offerings Image 3" />
+          <div className="home-fleet-set-text">
+            <p>Complete Plant Relocation</p>
+          </div>
+        </article>
+        <article className="home-fleet-set blue-overlay">
+          <img src={OfferingsImage4} alt="Offerings Image 4" />
+          <div className="home-fleet-set-text">
+            <p>Erection & Dismantling Works</p>
+          </div>
+        </article>
+        <article className="home-fleet-set blue-overlay">
+          <img src={OfferingsImage5} alt="Offerings Image 5" />
+          <div className="home-fleet-set-text">
+            <p>Loading & Unloading of Machines</p>
+          </div>
+        </article>
+        <article className="home-fleet-set blue-overlay">
+          <img src={OfferingsImage6} alt="Offerings Image 6" />
+          <div className="home-fleet-set-text">
+            <p>Material Handling Solutions</p>
+          </div>
+        </article>
+        <article className="home-fleet-set blue-overlay">
+          <img src={OfferingsImage7} alt="Offerings Image 7" />
+          <div className="home-fleet-set-text">
+            <p>Emergency breakdown lifting support</p>
+          </div>
+        </article>
+        <article className="home-fleet-set blue-overlay">
+          <img src={OfferingsImage8} alt="Offerings Image 8" />
+          <div className="home-fleet-set-text">
+            <p>Floor protection, safe movement & load distribution</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  );
+}
+
+export default Offerings;

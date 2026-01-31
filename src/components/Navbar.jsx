@@ -53,8 +53,12 @@ function Navbar() {
             <Link to="services/heavy-machine-lifting-and-shifting">
               Heavy Machine Lifting & Shifting
             </Link>
-            <Link>Machinery Loading & Unloading</Link>
-            <Link>Machinery Installation</Link>
+            <Link to="services/machinery-loading-and-unloading">
+              Machinery Loading & Unloading
+            </Link>
+            <Link to="services/machinery-installation">
+              Machinery Installation
+            </Link>
             <Link>Machinery Dismantling</Link>
           </div>
         </div>
