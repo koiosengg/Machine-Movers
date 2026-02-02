@@ -1492,6 +1492,7 @@ html {
 }
 
 .services-services-text h3 {
+  width: 100%;
   color: var(--Blue-blue-400, #353f52);
   font-family: "Plus Jakarta Sans";
   font-size: 18px;

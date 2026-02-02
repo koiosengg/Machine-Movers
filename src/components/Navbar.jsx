@@ -59,7 +59,9 @@ function Navbar() {
             <Link to="services/machinery-installation">
               Machinery Installation
             </Link>
-            <Link>Machinery Dismantling</Link>
+            <Link to="services/machinery-dismantling">
+              Machinery Dismantling
+            </Link>
           </div>
         </div>
         <Link className="navbar-link" to="/projects">

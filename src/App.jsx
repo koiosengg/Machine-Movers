@@ -10,6 +10,7 @@ import Projects from "./components/Projects";
 import HeavyMachineLiftingAndShifting from "./components/Services/HeavyMachineLiftingAndShifting";
 import MachineryLoadingAndUnloading from "./components/Services/MachineryLoadingAndUnloading";
 import MachineryInstallation from "./components/Services/MachineryInstallation";
+import MachineryDismantling from "./components/Services/MachineryDismantling";
 function App() {
   return (
     <BrowserRouter>
@@ -32,6 +33,7 @@ function App() {
             path="services/machinery-installation"
             element={<MachineryInstallation />}
           />
+          <Route path="services/machinery-dismantling" element={<MachineryDismantling/>} />
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<Home />} />
         </Route>
