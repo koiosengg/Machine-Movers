@@ -8,11 +8,13 @@ import Clients from "./About/Clients";
 import FAQ from "./Home/FAQ";
 import Reach from "./Home/Reach";
 import Ready from "./Home/Ready";
+import Hero from "./About/Hero";
 
 function About() {
   return (
     <>
-      <Banner />
+      {/* <Banner /> */}
+      <Hero />
       <Numbers />
       <Company />
       <Move />

@@ -13,18 +13,18 @@ const galleryData = [
   },
   {
     img: GalleryImg2,
-    title: "CONTAINER LOADING",
-    desc: "Safe and efficient container handling",
+    title: "We Shift The Machines Using",
+    desc: "Rollers and Hydralic Jacks",
   },
   {
     img: GalleryImg3,
-    title: "HEAVY MACHINE RELOCATION",
-    desc: "Precision movement for heavy equipment",
+    title: "Container Loading / Unloading",
+    desc: "De-Stepping is our Speciality",
   },
   {
     img: GalleryImg4,
-    title: "RECOVERY OPERATIONS",
-    desc: "Quick recovery with experienced teams",
+    title: "PICK -N",
+    desc: "Carry Cranes",
   },
 ];
 
