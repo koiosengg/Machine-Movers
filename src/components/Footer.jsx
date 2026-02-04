@@ -17,9 +17,35 @@ function Footer() {
           </p>
         </header>
         <form>
-          <input type="email" placeholder="Your Email Address" />
+          <input type="email" id="emailID" placeholder="Your Email Address" />
           <button type="submit" className="primary-button">
-            <p>Submit</p>
+            <p className="desktop">Submit</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 20 20"
+              fill="none"
+              className="mobile"
+            >
+              <mask
+                id="mask0_655_3331"
+                style={{ maskType: "alpha" }}
+                maskUnits="userSpaceOnUse"
+                x="0"
+                y="0"
+                width="20"
+                height="20"
+              >
+                <rect width="20" height="20" fill="#D9D9D9" />
+              </mask>
+              <g mask="url(#mask0_655_3331)">
+                <path
+                  d="M7.01671 16.6663L5.83337 15.483L11.3167 9.99967L5.83337 4.51634L7.01671 3.33301L13.6834 9.99967L7.01671 16.6663Z"
+                  fill="#030F27"
+                />
+              </g>
+            </svg>
           </button>
         </form>
       </div>
