@@ -2401,6 +2401,249 @@ footer {
     right: 20px;
   }
 
+  .template {
+    padding: 48px 20px;
+    gap: 32px;
+  }
+
+  .template-heading {
+    gap: 4px;
+  }
+
+  .template-heading h2 {
+    color: var(--Blue-Primary, #030f27);
+    font-family: "Plus Jakarta Sans";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .template-heading p {
+    color: var(--Text-Black-text-black-200, #929292);
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .home-provide {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .home-provide-set-text p {
+    color: var(--Text-Black-text-black-300, #606060);
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .home-about {
+    padding: 48px 20px;
+    gap: 24px;
+    flex-direction: column;
+  }
+
+  .home-about-content {
+    width: 100%;
+    gap: 4px;
+  }
+
+  .home-about-content h2 {
+    color: var(--Blue-Primary, #030f27);
+    font-family: "Plus Jakarta Sans";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .home-about-para {
+    max-width: 100%;
+    color: var(--Text-Black-text-black-300, #606060);
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .home-about .secondary-button {
+    height: 36px;
+    padding: 8px 16px;
+  }
+
+  .secondary-button p {
+    color: #fff;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .secondary-button svg {
+    width: 20px;
+    height: 20px;
+  }
+
+  .home-about-img {
+    width: 100%;
+  }
+
+  .home-move {
+    padding: 48px 20px;
+  }
+
+  .home-move h2 {
+    color: var(--Grey-grey-200, #c2c2c2);
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.64px;
+  }
+
+  .home-move h2 span {
+    color: var(--Blue-Primary, #030f27);
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.64px;
+  }
+
+  .home-fleet {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .home-yellow {
+    padding: 48px 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home-yellow p {
+    color: #000;
+    font-family: "Plus Jakarta Sans";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .home-yellow h2 {
+    color: #000;
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 3.36px;
+  }
+
+  .home-equipment {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .home-clients {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .home-clients-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .home-bts {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .home-bts-set-text p {
+    font-size: 14px;
+  }
+
+  .template.home-faq {
+    flex-direction: column;
+  }
+
+  .home-faq-set-text h3 {
+    color: var(--Text-Black-Primary, #111);
+    font-family: "Plus Jakarta Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+
+  .home-faq-set-text p {
+    color: var(--Text-Black-text-black-300, #606060);
+    font-family: "Plus Jakarta Sans";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .home-faq-set img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .home-reach {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+  }
+
+  .home-ready {
+    padding: 48px 20px;
+    gap: 16px;
+  }
+
+  .home-ready h2 {
+    color: var(--Blue-blue-200, #8b919c);
+    text-align: center;
+    font-family: "Plus Jakarta Sans";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.72px;
+  }
+
+  .home-ready img {
+    width: 34px;
+    height: 34px;
+  }
+
   /* Footer */
 
   footer {
