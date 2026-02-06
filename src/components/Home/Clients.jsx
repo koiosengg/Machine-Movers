@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ClientLogo1 from "../../assets/Home/Clients/Client Logo 1.png";
 import ClientLogo2 from "../../assets/Home/Clients/Client Logo 2.png";
 import ClientLogo3 from "../../assets/Home/Clients/Client Logo 3.png";
@@ -41,7 +42,7 @@ function Clients() {
           <img src={ClientLogo12} alt="Goodrich" />
         </div>
       </div>
-      <a href="#" className="tertiary-button">
+      <Link to="/about#Clients" className="tertiary-button">
         <p>View all</p>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +69,7 @@ function Clients() {
             />
           </g>
         </svg>
-      </a>
+      </Link>
     </section>
   );
 }

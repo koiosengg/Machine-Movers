@@ -2644,6 +2644,85 @@ footer {
     height: 34px;
   }
 
+  /* About */
+
+  .about-numbers {
+    display: flex;
+    padding: 20px 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+  }
+
+  .about-company-container {
+    flex-direction: column;
+  }
+
+  .about-clients {
+    padding: 48px 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-clients-left-controls .home-banner-gallery-indicators {
+    transform: none;
+  }
+
+  /* Projects */
+
+  .projects-case-set-heading {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .projects-case-set-heading img {
+    height: auto;
+    width: 100%;
+  }
+
+  .projects-case-set-heading h3 {
+    color: var(--Yellow-Primary, #fdbe33);
+    font-family: "Plus Jakarta Sans";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .projects-case-set-container {
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    gap: 32px;
+  }
+
+  .projects-case-set-imgs {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: auto;
+    align-self: stretch;
+  }
+
+  .projects-case-set-content {
+    width: 100%;
+  }
+
+  .projects-tata {
+    padding: 48px 20px;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+  }
+
+  .projects-tata-img {
+    width: 100%;
+  }
+
+  .projects-tata-img img {
+    height: auto;
+    width: 100%;
+  }
+
   /* Footer */
 
   footer {

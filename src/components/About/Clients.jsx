@@ -39,11 +39,30 @@ function Clients() {
     );
   };
 
-  const firstSet = logos.slice(0, 30);
-  const secondSet = logos.slice(30, 60);
-  const thirdSet = logos.slice(60);
+  const [logosPerSlide, setLogosPerSlide] = useState(
+    window.innerWidth < 1200 ? 15 : 30,
+  );
 
-  const slidesCount = 3;
+  useEffect(() => {
+    const handleResize = () => {
+      setLogosPerSlide(window.innerWidth < 1200 ? 15 : 30);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const chunkArray = (array, size) => {
+    const result = [];
+    for (let i = 0; i < array.length; i += size) {
+      result.push(array.slice(i, i + size));
+    }
+    return result;
+  };
+
+  const logoSets = chunkArray(logos, logosPerSlide);
+  const slidesCount = logoSets.length;
+
   const [activeIndex, setActiveIndex] = useState(0);
   const [slideWidth, setSlideWidth] = useState(0);
 
@@ -72,6 +91,12 @@ function Clients() {
     }
   }, [activeIndex, slideWidth]);
 
+  useEffect(() => {
+    if (activeIndex >= slidesCount) {
+      setActiveIndex(0);
+    }
+  }, [slidesCount]);
+
   const handlePrev = () => {
     setActiveIndex((prev) => (prev === 0 ? slidesCount - 1 : prev - 1));
   };
@@ -84,7 +109,7 @@ function Clients() {
   const isLast = activeIndex === slidesCount - 1;
 
   return (
-    <section className="about-clients">
+    <section className="about-clients" id="Clients">
       <div className="about-clients-left">
         <header className="template-heading">
           <h2>Serving 200+ Reputed Organizations</h2>
@@ -94,7 +119,7 @@ function Clients() {
           </p>
         </header>
 
-        <div className="about-clients-left-controls">
+        <div className="about-clients-left-controls desktop">
           <button
             onClick={!isFirst ? handlePrev : undefined}
             style={{
@@ -193,18 +218,108 @@ function Clients() {
 
       <div className="about-clients-right" ref={rightRef}>
         <div className="about-clients-right-slide" ref={slideRef}>
-          <div className="home-clients-container">
-            {renderLogosWithDummy(firstSet, 30, 0)}
-          </div>
-
-          <div className="home-clients-container">
-            {renderLogosWithDummy(secondSet, 30, 30)}
-          </div>
-
-          <div className="home-clients-container">
-            {renderLogosWithDummy(thirdSet, 30, 60)}
-          </div>
+          {logoSets.map((set, index) => (
+            <div className="home-clients-container" key={index}>
+              {renderLogosWithDummy(set, logosPerSlide, index * logosPerSlide)}
+            </div>
+          ))}
         </div>
+      </div>
+
+      <div className="about-clients-left-controls mobile">
+        <button
+          onClick={!isFirst ? handlePrev : undefined}
+          style={{
+            opacity: isFirst ? 0.3 : 1,
+            cursor: isFirst ? "default" : "pointer",
+            pointerEvents: isFirst ? "none" : "auto",
+          }}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+          >
+            <mask
+              id="mask0_583_3864"
+              style={{ maskType: "alpha" }}
+              maskUnits="userSpaceOnUse"
+              x="0"
+              y="0"
+              width="20"
+              height="20"
+            >
+              <rect
+                width="20"
+                height="20"
+                transform="matrix(-1 0 0 1 20 0)"
+                fill="#D9D9D9"
+              />
+            </mask>
+            <g mask="url(#mask0_583_3864)">
+              <path
+                d="M12.9834 16.6666L14.1667 15.4833L8.68341 9.99992L14.1667 4.51659L12.9834 3.33325L6.31675 9.99992L12.9834 16.6666Z"
+                fill="#030F27"
+              />
+            </g>
+          </svg>
+        </button>
+
+        <div className="home-banner-gallery-indicators">
+          {Array.from({ length: slidesCount }).map((_, index) => (
+            <div
+              key={index}
+              className={`home-banner-gallery-indicator ${
+                index === activeIndex
+                  ? "active-home-banner-gallery-indicator"
+                  : ""
+              }`}
+              onClick={() => setActiveIndex(index)}
+            />
+          ))}
+        </div>
+
+        <button
+          onClick={!isLast ? handleNext : undefined}
+          style={{
+            opacity: isLast ? 0.3 : 1,
+            cursor: isLast ? "default" : "pointer",
+            pointerEvents: isLast ? "none" : "auto",
+          }}
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 20 20"
+            fill="none"
+          >
+            <mask
+              id="mask0_583_3864"
+              style={{ maskType: "alpha" }}
+              maskUnits="userSpaceOnUse"
+              x="0"
+              y="0"
+              width="20"
+              height="20"
+            >
+              <rect
+                width="20"
+                height="20"
+                transform="matrix(-1 0 0 1 20 0)"
+                fill="#D9D9D9"
+              />
+            </mask>
+            <g mask="url(#mask0_583_3864)">
+              <path
+                d="M12.9834 16.6666L14.1667 15.4833L8.68341 9.99992L14.1667 4.51659L12.9834 3.33325L6.31675 9.99992L12.9834 16.6666Z"
+                fill="#030F27"
+              />
+            </g>
+          </svg>
+        </button>
       </div>
     </section>
   );

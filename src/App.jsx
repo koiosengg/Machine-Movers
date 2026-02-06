@@ -11,10 +11,12 @@ import HeavyMachineLiftingAndShifting from "./components/Services/HeavyMachineLi
 import MachineryLoadingAndUnloading from "./components/Services/MachineryLoadingAndUnloading";
 import MachineryInstallation from "./components/Services/MachineryInstallation";
 import MachineryDismantling from "./components/Services/MachineryDismantling";
+import ScrollToHash from "./components/ScrollToHash";
 function App() {
   return (
     <BrowserRouter>
       <ScrollToTop />
+      <ScrollToHash />
       <Navbar />
       <Routes>
         <Route path="/">
@@ -33,7 +35,10 @@ function App() {
             path="services/machinery-installation"
             element={<MachineryInstallation />}
           />
-          <Route path="services/machinery-dismantling" element={<MachineryDismantling/>} />
+          <Route
+            path="services/machinery-dismantling"
+            element={<MachineryDismantling />}
+          />
           <Route path="contact" element={<Contact />} />
           <Route path="*" element={<Home />} />
         </Route>
