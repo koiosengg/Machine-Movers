@@ -47,7 +47,7 @@ function Contact() {
             </div>
             <div className="contact-banner-set-content">
               <h3>Call us</h3>
-              <p>Mon - Fri from 8am to 9pm</p>
+              <p>24 / 7 call support</p>
             </div>
             <a href="tel:+919980335552" target="_blank">
               +91 99803 35552
@@ -118,8 +118,8 @@ function Contact() {
       <section className="contact-form-container">
         <form
           className="contact-form"
-          method="post"
-          action="#"
+          action="https://formspree.io/f/mgolwqrg"
+          method="POST"
           autoComplete="on"
         >
           <div className="contact-form-input">

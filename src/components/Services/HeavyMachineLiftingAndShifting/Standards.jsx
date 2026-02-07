@@ -16,9 +16,9 @@ function Standards() {
       </header>
       <div className="services-standards">
         <p className="services-standards-para">
-          *Our work is driven by 100% commitment to safety, compliance, and
-          methodical execution, ensuring smooth, risk-free operations every
-          time.
+          *Our work is driven by 100% commitment to{" "}
+          <span>safety, compliance, and methodical execution,</span> ensuring
+          smooth, risk-free operations every time.
         </p>
         <article className="services-standards-set">
           <img
