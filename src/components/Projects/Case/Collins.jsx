@@ -1,9 +1,9 @@
 import React, { useEffect, useRef, useState } from "react";
 import Logo from "../../../assets/Projects/Case/Collins/Logo.png";
-import Image1 from "../../../assets/Projects/Case/Collins/Image 1.png";
-import Image2 from "../../../assets/Projects/Case/Collins/Image 2.png";
-import Image3 from "../../../assets/Projects/Case/Collins/Image 3.png";
-import Image4 from "../../../assets/Projects/Case/Collins/Image 4.png";
+import Image1 from "../../../assets/Projects/Case/Collins/Image 1.jpg";
+import Image2 from "../../../assets/Projects/Case/Collins/Image 2.jpg";
+import Image3 from "../../../assets/Projects/Case/Collins/Image 3.jpg";
+import Image4 from "../../../assets/Projects/Case/Collins/Image 4.jpg";
 
 function Collins() {
   const images = [Image1, Image2, Image3, Image4];

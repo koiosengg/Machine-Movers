@@ -1,8 +1,8 @@
 import React from "react";
 import FleetImage1 from "../../assets/Home/Fleet/Fleet Image 1.jpg";
 import FleetImage2 from "../../assets/Home/Fleet/Fleet Image 2.png";
-import FleetImage3 from "../../assets/Home/Fleet/Fleet Image 3.png";
-import FleetImage4 from "../../assets/Home/Fleet/Fleet Image 4.png";
+import FleetImage3 from "../../assets/Home/Fleet/Fleet Image 3.jpg";
+import FleetImage4 from "../../assets/Home/Fleet/Fleet Image 4.jpg";
 import FleetImage5 from "../../assets/Home/Fleet/Fleet Image 5.png";
 import FleetImage6 from "../../assets/Home/Fleet/Fleet Image 6.jpg";
 import FleetImage7 from "../../assets/Home/Fleet/Fleet Image 7.png";
