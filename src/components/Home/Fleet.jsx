@@ -15,8 +15,8 @@ function Fleet() {
           Our Fleet of Heavy-Duty <br className="desktop" /> Machines
         </h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur. At et consequat nunc nullam.
-          Mattis ac arcu sodales id quam urna.
+          Specialised machines and lifting equipment supporting safe and precise
+          industrial movements
         </p>
       </header>
       <div className="home-fleet">

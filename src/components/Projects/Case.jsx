@@ -6,9 +6,10 @@ import Molex from "./Case/Molex";
 import Collins from "./Case/Collins";
 import Bhoruka from "./Case/Bhoruka";
 import SJS from "./Case/SJS";
+import CIE from "./Case/CIE";
 
 function Case() {
-  const cases = [EMMVEE, TE, Barani, Molex, Collins, Bhoruka, SJS];
+  const cases = [EMMVEE, TE, Barani, Molex, Collins, Bhoruka, SJS, CIE];
 
   const slidesCount = cases.length;
 

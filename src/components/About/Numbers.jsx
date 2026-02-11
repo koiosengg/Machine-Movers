@@ -27,7 +27,7 @@ function Numbers() {
           </div>
         </article>
         <article className="about-numbers-set">
-          <span>450</span>
+          <span>2400</span>
           <div className="about-numbers-set-text">
             <h3>Completed Projects</h3>
             <p>

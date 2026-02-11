@@ -18,8 +18,8 @@ function Equipment() {
           <br className="desktop" /> Power Your Projects
         </h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur. At et consequat nunc nullam.
-          Mattis ac arcu sodales id quam urna.
+          Expanded fleet of specialised machines supporting complex lifts,
+          precise moves, and large-scale projects
         </p>
       </header>
       <div className="home-equipment">

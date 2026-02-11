@@ -4,10 +4,10 @@ function BTS() {
   return (
     <section className="template">
       <header className="template-heading">
-        <h2>Behind the Scenes </h2>
+        <h2>Inside Our Operations </h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur. At et consequat nunc nullam.
-          Mattis ac arcu sodales id quam urna.
+          From site surveys to execution, discover the people and processes
+          driving every project
         </p>
       </header>
       <div className="home-bts">

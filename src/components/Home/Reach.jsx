@@ -5,11 +5,12 @@ function Reach() {
     <section className="template">
       <header className="template-heading">
         <h2>
-          Expanding Our Reach, <br className="desktop" /> Serving More Places
+          Our Growing Presence <br className="desktop" /> Across Industrial
+          Regions
         </h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur. At et consequat nunc nullam.
-          Mattis ac arcu sodales id quam urna.
+          Local offices positioned to support machinery movement projects with
+          speed and reliability
         </p>
       </header>
       <div className="home-reach">

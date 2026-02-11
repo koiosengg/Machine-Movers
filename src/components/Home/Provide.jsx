@@ -4,10 +4,10 @@ function Provide() {
   return (
     <section className="template">
       <header className="template-heading">
-        <h2>What we Provide?</h2>
+        <h2>What does Machinery Movers Provide?</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur. At et consequat nunc nullam.
-          Mattis ac arcu sodales id quam urna.
+          Reliable execution backed by skilled manpower, consistent quality, and
+          round-the-clock operational support
         </p>
       </header>
       <div className="home-provide">
@@ -41,8 +41,8 @@ function Provide() {
           <div className="home-provide-set-text">
             <h3>Expert Workers</h3>
             <p>
-              We have Expert Workers with enough skills and determination to
-              complete loading and unloading.
+              Highly trained and experienced professionals who handle complex
+              machinery with precision and safety.
             </p>
           </div>
         </article>
@@ -75,8 +75,8 @@ function Provide() {
           <div className="home-provide-set-text">
             <h3>Quality Work</h3>
             <p>
-              We Provide good Quality of work to my clients to make customer
-              happy.
+              Structured processes and attention to detail ensure damage-free,
+              efficient, and dependable results every time.
             </p>
           </div>
         </article>
@@ -96,7 +96,8 @@ function Provide() {
           <div className="home-provide-set-text">
             <h3>24/7 Support</h3>
             <p>
-              We provide 24/7 support to my clients to make them satisfaction.
+              Round-the-clock availability to support urgent movements,
+              shutdowns, and time-critical industrial operations.{" "}
             </p>
           </div>
         </article>
