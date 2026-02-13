@@ -114,8 +114,8 @@ function Clients() {
         <header className="template-heading">
           <h2>Serving 200+ Reputed Organizations</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur. At et consequat nunc nullam.
-            Mattis ac arcu sodales id quam urna.
+            Trusted by leading manufacturers, OEMs, and enterprises, with proven
+            case studies you can explore
           </p>
         </header>
 
