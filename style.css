@@ -1472,6 +1472,17 @@ html {
 
 /* Services */
 
+.services-sector {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.services-sector .home-reach-set h3 {
+  text-transform: uppercase;
+}
+
 .blue-template {
   background: var(--Blue-Primary, #030f27);
 }
@@ -2722,6 +2733,14 @@ footer {
   }
 
   /* Services */
+
+  .services-sector {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+  }
 
   .services-services {
     flex-direction: column;

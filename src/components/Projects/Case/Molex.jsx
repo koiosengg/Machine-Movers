@@ -1,12 +1,13 @@
 import React, { useEffect, useRef, useState } from "react";
 import Logo from "../../../assets/Projects/Case/Molex/Logo.png";
-import Image1 from "../../../assets/Projects/Case/Molex/Image 1.png";
-import Image2 from "../../../assets/Projects/Case/Molex/Image 2.png";
-import Image3 from "../../../assets/Projects/Case/Molex/Image 3.png";
-import Image4 from "../../../assets/Projects/Case/Molex/Image 4.png";
+import Image1 from "../../../assets/Projects/Case/Molex/Image 1.jpg";
+import Image2 from "../../../assets/Projects/Case/Molex/Image 2.jpg";
+import Image3 from "../../../assets/Projects/Case/Molex/Image 3.jpg";
+import Image4 from "../../../assets/Projects/Case/Molex/Image 4.jpg";
+import Image5 from "../../../assets/Projects/Case/Molex/Image 5.jpg";
 
 function Molex() {
-  const images = [Image1, Image2, Image3, Image4];
+  const images = [Image1, Image2, Image3, Image4, Image5];
 
   const totalSlides = images.length;
 

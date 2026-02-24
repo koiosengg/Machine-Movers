@@ -1,9 +1,9 @@
 import React from "react";
-import GearImage1 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Gear/Gear Image 1.png";
-import GearImage2 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Gear/Gear Image 2.png";
+import GearImage1 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Gear/Gear Image 1.jpg";
+import GearImage2 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Gear/Gear Image 2.jpg";
 import GearImage3 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Gear/Gear Image 3.png";
-import GearImage4 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Gear/Gear Image 4.png";
-import GearImage5 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Gear/Gear Image 5.png";
+import GearImage4 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Gear/Gear Image 4.jpg";
+import GearImage5 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Gear/Gear Image 5.jpg";
 
 function Gear() {
   return (

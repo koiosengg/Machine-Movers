@@ -4,9 +4,10 @@ import Image1 from "../../../assets/Projects/Case/Collins/Image 1.jpg";
 import Image2 from "../../../assets/Projects/Case/Collins/Image 2.jpg";
 import Image3 from "../../../assets/Projects/Case/Collins/Image 3.jpg";
 import Image4 from "../../../assets/Projects/Case/Collins/Image 4.jpg";
+import Image5 from "../../../assets/Projects/Case/Collins/Image 5.jpg";
 
 function Collins() {
-  const images = [Image1, Image2, Image3, Image4];
+  const images = [Image1, Image2, Image3, Image4, Image5];
 
   const totalSlides = images.length;
 

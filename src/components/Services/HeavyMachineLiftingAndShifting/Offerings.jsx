@@ -1,10 +1,10 @@
 import React from "react";
-import OfferingsImage1 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Offerings/Offerings Image 1.png";
+import OfferingsImage1 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Offerings/Offerings Image 1.jpg";
 import OfferingsImage2 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Offerings/Offerings Image 2.png";
 import OfferingsImage3 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Offerings/Offerings Image 3.png";
 import OfferingsImage4 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Offerings/Offerings Image 4.png";
 import OfferingsImage5 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Offerings/Offerings Image 5.png";
-import OfferingsImage6 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Offerings/Offerings Image 6.png";
+import OfferingsImage6 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Offerings/Offerings Image 6.jpg";
 import OfferingsImage7 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Offerings/Offerings Image 7.png";
 import OfferingsImage8 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Offerings/Offerings Image 8.png";
 

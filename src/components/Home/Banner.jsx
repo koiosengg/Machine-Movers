@@ -3,7 +3,6 @@ import Arrow from "../../assets/Home/Banner/Arrow.svg";
 import GalleryImg1 from "../../assets/Home/Banner/Gallery Image 1.png";
 import GalleryImg2 from "../../assets/Home/Banner/Gallery Image 2.png";
 import GalleryImg3 from "../../assets/Home/Banner/Gallery Image 3.png";
-import GalleryImg4 from "../../assets/Home/Banner/Gallery Image 4.png";
 
 const galleryData = [
   {
@@ -20,11 +19,6 @@ const galleryData = [
     img: GalleryImg3,
     title: "Container Loading / Unloading",
     desc: "De-Stepping is our Speciality",
-  },
-  {
-    img: GalleryImg4,
-    title: "PICK -N",
-    desc: "Carry Cranes",
   },
 ];
 

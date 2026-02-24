@@ -1,10 +1,10 @@
 import React from "react";
 import InfrastructureImage1 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Infrastructure/Infrastructure Image 1.png";
 import InfrastructureImage2 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Infrastructure/Infrastructure Image 2.png";
-import InfrastructureImage3 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Infrastructure/Infrastructure Image 3.png";
+import InfrastructureImage3 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Infrastructure/Infrastructure Image 3.jpg";
 import InfrastructureImage4 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Infrastructure/Infrastructure Image 4.png";
 import InfrastructureImage5 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Infrastructure/Infrastructure Image 5.png";
-import InfrastructureImage6 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Infrastructure/Infrastructure Image 6.png";
+import InfrastructureImage6 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Infrastructure/Infrastructure Image 6.jpg";
 
 function Infrastructure() {
   return (

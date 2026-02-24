@@ -1,5 +1,4 @@
 import React from "react";
-import Banner from "./About/Banner";
 import Numbers from "./About/Numbers";
 import Company from "./About/Company";
 import Yellow from "./Home/Yellow";
@@ -13,7 +12,6 @@ import Hero from "./About/Hero";
 function About() {
   return (
     <>
-      {/* <Banner /> */}
       <Hero />
       <Numbers />
       <Company />
