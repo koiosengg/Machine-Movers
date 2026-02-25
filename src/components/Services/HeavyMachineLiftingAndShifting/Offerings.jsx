@@ -4,7 +4,7 @@ import OfferingsImage2 from "../../../assets/Services/HeavyMachineLiftingAndShif
 import OfferingsImage3 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Offerings/Offerings Image 3.png";
 import OfferingsImage4 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Offerings/Offerings Image 4.png";
 import OfferingsImage5 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Offerings/Offerings Image 5.png";
-import OfferingsImage6 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Offerings/Offerings Image 6.JPG";
+import OfferingsImage6 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Offerings/Offerings Image 6.jpg";
 import OfferingsImage7 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Offerings/Offerings Image 7.png";
 import OfferingsImage8 from "../../../assets/Services/HeavyMachineLiftingAndShifting/Offerings/Offerings Image 8.png";
 
