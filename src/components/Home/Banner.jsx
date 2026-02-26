@@ -1,24 +1,27 @@
 import React, { useEffect, useRef, useState } from "react";
 import Arrow from "../../assets/Home/Banner/Arrow.svg";
-import GalleryImg1 from "../../assets/Home/Banner/Gallery Image 1.png";
-import GalleryImg2 from "../../assets/Home/Banner/Gallery Image 2.png";
-import GalleryImg3 from "../../assets/Home/Banner/Gallery Image 3.png";
+import GalleryImg1 from "../../assets/Home/Banner/Gallery Video 1.mp4";
+import GalleryImg2 from "../../assets/Home/Banner/Gallery Video 1.mp4";
+import GalleryImg3 from "../../assets/Home/Banner/Gallery Video 1.mp4";
 
 const galleryData = [
   {
     img: GalleryImg1,
     title: "MOVING MACHINES ON EPOXY",
     desc: "Epoxy painted floors are our specialty",
+    link: "https://youtu.be/cXZxdMAYFcc?si=uAtfWmQg3DA-JGmN",
   },
   {
     img: GalleryImg2,
     title: "We Shift The Machines Using",
     desc: "Rollers and Hydralic Jacks",
+    link: "https://youtu.be/cXZxdMAYFcc?si=uAtfWmQg3DA-JGmN",
   },
   {
     img: GalleryImg3,
     title: "Container Loading / Unloading",
     desc: "De-Stepping is our Speciality",
+    link: "https://youtu.be/cXZxdMAYFcc?si=uAtfWmQg3DA-JGmN",
   },
 ];
 
@@ -68,7 +71,7 @@ function Banner() {
       <div className="home-banner-gallery" ref={galleryRef}>
         <div className="home-banner-gallery-slide" style={slideStyle}>
           {galleryData.map((item, index) => (
-            <img key={index} src={item.img} alt={item.title} />
+            <video key={index} src={item.img} alt={item.title} autoPlay muted />
           ))}
         </div>
 
@@ -117,6 +120,39 @@ function Banner() {
             />
           ))}
         </div>
+
+        <a
+          href={galleryData[currentIndex].link}
+          target="_blank"
+          className="home-banner-youtube"
+        >
+          <p>Click here to watch</p>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <mask
+              id="mask0_803_823"
+              style={{ maskType: "alpha" }}
+              maskUnits="userSpaceOnUse"
+              x="0"
+              y="0"
+              width="24"
+              height="24"
+            >
+              <rect width="24" height="24" fill="#D9D9D9" />
+            </mask>
+            <g mask="url(#mask0_803_823)">
+              <path
+                d="M8.42 20L7 18.58L13.58 12L7 5.42L8.42 4L16.42 12L8.42 20Z"
+                fill="white"
+              />
+            </g>
+          </svg>
+        </a>
       </div>
     </section>
   );

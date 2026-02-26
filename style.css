@@ -487,10 +487,53 @@ html {
   right: 80px;
 }
 
-.home-banner-gallery-indicators {
+.home-banner-youtube {
   position: absolute;
   bottom: 20px;
   right: 80px;
+  z-index: 2;
+  display: inline-flex;
+  height: 56px;
+  padding: 16px 0;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.home-banner-youtube p {
+  color: var(--White, #fff);
+  font-family: "Plus Jakarta Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: none;
+  text-decoration-thickness: auto;
+  text-underline-offset: auto;
+  text-underline-position: from-font;
+  transition: all 0.3s;
+}
+
+.home-banner-youtube:hover p {
+  color: #fdbe33;
+}
+
+.home-banner-youtube svg path {
+  transition: all 0.3s;
+}
+
+.home-banner-youtube:hover svg path {
+  fill: #fdbe33;
+}
+
+.home-banner-gallery-indicators {
+  position: absolute;
+  bottom: 20px;
+  left: 80px;
   z-index: 2;
   display: inline-flex;
   align-items: center;
@@ -869,6 +912,10 @@ html {
   gap: 12px;
 }
 
+.home-bts .home-bts-set{
+  padding-bottom: 20px;
+}
+
 .home-bts-set iframe {
   width: 100%;
   height: auto;
@@ -876,7 +923,7 @@ html {
 }
 
 .home-bts-set-text {
-  max-width: 360px;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
