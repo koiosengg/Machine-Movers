@@ -108,7 +108,7 @@ function Contact() {
               <h3>Visit us</h3>
               <p>Visit Our Office</p>
             </div>
-            <a href="#" target="_blank">
+            <a href="https://maps.app.goo.gl/AaCstpZ9QsBP5WXX6" target="_blank">
               #2102 & 2103,BCCHS Layout , Vajarahalli, Opp Sharma Transport
               Metro Pillar Number 249, Knakapura Main Road, Bengaluru - 560109
             </a>
