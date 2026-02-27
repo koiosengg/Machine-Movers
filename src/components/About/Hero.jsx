@@ -10,8 +10,9 @@ function Hero() {
           <br className="desktop" /> Machinery Movement
         </h1>
         <p>
-          South India’s complete service partner for container loading, machine
-          movement, and recovery operations.
+          Delivering trusted industrial machinery shifting, heavy equipment
+          relocation, and turnkey installation services across India with safety
+          and precision
         </p>
       </header>
 

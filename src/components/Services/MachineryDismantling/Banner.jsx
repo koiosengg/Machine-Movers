@@ -10,8 +10,9 @@ function Banner() {
           <br className="desktop" /> Dismantling
         </h1>
         <p>
-          South India’s complete service partner for container loading, machine
-          movement, and recovery operations.
+          Professional industrial machinery dismantling services across South
+          India, ensuring safe decommissioning, systematic disassembly, and
+          damage-free relocation support
         </p>
       </header>
 

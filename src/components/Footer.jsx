@@ -8,16 +8,28 @@ function Footer() {
       <div className="newsletter">
         <header>
           <h2>
-            Want Heavy Updates Delivered Light?
-            <br className="desktop" /> <span> Join Us.</span>
+            Planning a Machine Move?
+            <br className="desktop" /> <span>We’re Here To Help!</span>
           </h2>
           <p>
-            Stay updated with light, easy newsletters covering new equipment,
-            services, and industry insights.
+            Share your phone number below, and our team will call you to
+            understand and support your requirement promptly
           </p>
         </header>
-        <form>
-          <input type="email" id="emailID" placeholder="Your Email Address" />
+        <form
+          action="https://formspree.io/f/mgolwqrg"
+          method="POST"
+          autoComplete="on"
+        >
+          <input
+            type="tel"
+            id="mobile_number"
+            name="mobile_number"
+            placeholder="Enter your Mobile Number"
+            pattern="[0-9]{10}"
+            maxLength="10"
+            required
+          />
           <button type="submit" className="primary-button">
             <p className="desktop">Submit</p>
             <svg

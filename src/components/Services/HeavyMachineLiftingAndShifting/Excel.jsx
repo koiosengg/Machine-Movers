@@ -6,8 +6,9 @@ function Excel() {
       <header className="template-heading">
         <h2>What We Excel At </h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur. At et consequat nunc nullam.
-          Mattis ac arcu sodales id quam urna.
+          Delivering safe, timely, and cost-effective industrial machinery
+          shifting and heavy equipment handling solutions across India with
+          precision and reliability
         </p>
       </header>
       <div className="home-provide">
@@ -40,8 +41,8 @@ function Excel() {
           <div className="home-provide-set-text">
             <h3>Experienced in Heavy Handling</h3>
             <p>
-              We specialize in industrial crane services, heavy machinery
-              movement, and positioning
+              Proven expertise in industrial machinery shifting, heavy equipment
+              relocation, and precision on-site execution
             </p>
           </div>
         </article>
@@ -74,8 +75,8 @@ function Excel() {
           <div className="home-provide-set-text">
             <h3>On time Project Completion</h3>
             <p>
-              Expertise in handling machine installations, relocations, plant
-              shifting, and industrial equipment movement across all sectors.
+              Planned execution ensures timely machinery relocation with minimal
+              downtime and operational disruption
             </p>
           </div>
         </article>
@@ -108,8 +109,8 @@ function Excel() {
           <div className="home-provide-set-text">
             <h3>Safe & Reliable</h3>
             <p>
-              Experienced across manufacturing, labs, R&D, warehouses, steel,
-              automotive, and engineering sectors.
+              Industrial machinery shifting executed with precision, safety
+              compliance, and zero-damage commitment
             </p>
           </div>
         </article>
@@ -142,8 +143,8 @@ function Excel() {
           <div className="home-provide-set-text">
             <h3>Competitive Pricing</h3>
             <p>
-              We specialize in industrial crane services, heavy machinery
-              movement, and positioning
+              Cost-effective industrial machinery shifting services without
+              compromising safety, precision, or operational efficiency
             </p>
           </div>
         </article>
@@ -176,8 +177,8 @@ function Excel() {
           <div className="home-provide-set-text">
             <h3>Flexible Scheduling</h3>
             <p>
-              Expertise in handling machine installations, relocations, plant
-              shifting, and industrial equipment movement across all sectors.
+              Planned machinery relocation services aligned with shutdowns to
+              minimise operational downtime
             </p>
           </div>
         </article>
@@ -210,8 +211,8 @@ function Excel() {
           <div className="home-provide-set-text">
             <h3>End to End Support</h3>
             <p>
-              Experienced across manufacturing, labs, R&D, warehouses, steel,
-              automotive, and engineering sectors.
+              Complete machinery relocation solutions with expert planning,
+              execution, safety compliance, and precision handling
             </p>
           </div>
         </article>

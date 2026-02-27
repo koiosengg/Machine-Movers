@@ -10,8 +10,9 @@ function Standards() {
           Safety Standards & <br className="desktop" /> Worker Coverage
         </h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur. At et consequat nunc nullam.
-          Mattis ac arcu sodales id quam urna.
+          Strict safety protocols, trained workforce, and comprehensive worker
+          coverage ensuring compliant and risk-free machinery handling
+          operations across industrial sites.
         </p>
       </header>
       <div className="services-standards">

@@ -11,8 +11,9 @@ function Banner() {
           <br className="desktop" /> Lifting & Shifting
         </h1>
         <p>
-          South India’s complete service partner for container loading, machine
-          movement, and recovery operations.
+          Professional heavy machinery lifting and shifting services across
+          South India for safe, precise, and efficient industrial relocation
+          projects
         </p>
       </header>
 

@@ -11,8 +11,9 @@ function Banner() {
           Our Reputation
         </h1>
         <p>
-          South India’s complete service partner for container loading, machine
-          movement, and recovery operations.
+          Delivering complex machinery shifting and industrial relocation
+          projects across South India with safety, precision, and proven
+          expertise
         </p>
       </header>
 

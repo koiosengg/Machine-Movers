@@ -6,8 +6,8 @@ function Equipment() {
       <header className="template-heading">
         <h2>Equipment & Capabilities</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur. At et consequat nunc nullam.
-          Mattis ac arcu sodales id quam urna.
+          Advanced fleet, skilled manpower, and proven machinery handling
+          expertise serving Bangalore, Karnataka, and South India industries
         </p>
       </header>
       <div className="services-equipment">

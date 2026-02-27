@@ -10,8 +10,8 @@ function Banner() {
           <br className="desktop" /> Unloading
         </h1>
         <p>
-          South India’s complete service partner for container loading, machine
-          movement, and recovery operations.
+          Safe, efficient machinery loading and unloading services across South
+          India for factories and industrial projects
         </p>
       </header>
 

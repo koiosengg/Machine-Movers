@@ -4,13 +4,10 @@ function Sectors() {
   return (
     <section className="template">
       <header className="template-heading">
-        <h2>
-          More Sectors to
-          <br className="desktop" /> Power Your Projects
-        </h2>
+        <h2>Sectors We Support</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur. At et consequat nunc nullam.
-          Mattis ac arcu sodales id quam urna.
+          Delivering industrial machinery shifting and heavy equipment handling
+          services across South India’s manufacturing sectors
         </p>
       </header>
       <div className="services-sector">

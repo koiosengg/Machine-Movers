@@ -12,8 +12,9 @@ function Banner() {
           Installation
         </h1>
         <p>
-          South India’s complete service partner for container loading, machine
-          movement, and recovery operations.
+          Professional industrial machinery installation services across South
+          India, ensuring precise alignment, safe commissioning, and minimal
+          operational downtime
         </p>
       </header>
 

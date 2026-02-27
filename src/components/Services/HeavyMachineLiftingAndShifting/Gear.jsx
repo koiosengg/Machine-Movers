@@ -13,8 +13,9 @@ function Gear() {
           Safety Standards & <br className="desktop" /> Worker Coverage
         </h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur. At et consequat nunc nullam.
-          Mattis ac arcu sodales id quam urna.
+          Comprehensive industrial safety gear and certified protective
+          equipment ensuring secure, compliant, and risk-free machinery handling
+          operations
         </p>
       </header>
       <div className="services-gear">

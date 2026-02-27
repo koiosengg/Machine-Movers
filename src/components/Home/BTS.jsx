@@ -25,11 +25,12 @@ function BTS() {
           <div className="home-bts-set-text">
             <h3>
               Expertise in handling heavy machines on epoxy-coated floors with
-              complete floor protection.
+              complete floor protection
             </h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur. At et consequat nunc
-              nullam. Mattis ac arcu sodales.
+              Safe Movement on Epoxy Floors Expertised handling techniques
+              ensure heavy machinery is moved safely without damaging coated
+              industrial surfaces.
             </p>
           </div>
         </article>
@@ -50,8 +51,9 @@ function BTS() {
               Experts with Skilled Team & Equipment
             </h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur. At et consequat nunc
-              nullam. Mattis ac arcu sodales.
+              Complete Industrial Handling Solutions Industrial loading,
+              unloading, machine shifting, and heavy lifting experts with a
+              skilled team and advanced equipment.
             </p>
           </div>
         </article>
@@ -69,8 +71,9 @@ function BTS() {
           <div className="home-bts-set-text">
             <h3>Moving Machine (10 ton) with Floor protection</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur. At et consequat nunc
-              nullam. Mattis ac arcu sodales.
+              10 Ton Machine Movement Moving machine (10 ton) with floor
+              protection using controlled handling techniques and specialised
+              equipment.
             </p>
           </div>
         </article>
@@ -88,8 +91,8 @@ function BTS() {
           <div className="home-bts-set-text">
             <h3>Moving machine (5ton) using jacks and rollers</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur. At et consequat nunc
-              nullam. Mattis ac arcu sodales.
+              5 Ton Machine Movement Moving machine (5 ton) using hydraulic
+              jacks and rollers for safe, controlled, and precise positioning.
             </p>
           </div>
         </article>

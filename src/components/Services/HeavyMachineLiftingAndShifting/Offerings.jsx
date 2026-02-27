@@ -14,8 +14,9 @@ function Offerings() {
       <header className="template-heading">
         <h2>Other Key Service Offerings</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur. At et consequat nunc nullam.
-          Mattis ac arcu sodales id quam urna.
+          Explore our extended machinery handling services including crane
+          rental, pick and carry, heavy recovery, and industrial equipment
+          support solutions
         </p>
       </header>
       <div className="home-equipment">
