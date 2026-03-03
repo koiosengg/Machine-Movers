@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from "react";
 import Arrow from "../../assets/Home/Banner/Arrow.svg";
 import GalleryImg1 from "../../assets/Home/Banner/Gallery Video 1.mp4";
-import GalleryImg2 from "../../assets/Home/Banner/Gallery Video 1.mp4";
-import GalleryImg3 from "../../assets/Home/Banner/Gallery Video 1.mp4";
+import GalleryImg2 from "../../assets/Home/Banner/Gallery Video 2.mp4";
+import GalleryImg3 from "../../assets/Home/Banner/Gallery Video 3.mp4";
 
 const galleryData = [
   {
@@ -21,7 +21,7 @@ const galleryData = [
     img: GalleryImg3,
     title: "Container Loading / Unloading",
     desc: "De-Stepping is our Speciality",
-    link: "https://youtu.be/cXZxdMAYFcc?si=uAtfWmQg3DA-JGmN",
+    link: "https://youtu.be/6uZFFT2xSsA?si=0Vt_wUny3ZvVaEHu",
   },
 ];
 
