@@ -10,7 +10,8 @@ function Safety() {
         <p>
           We operate with a strict safety-first approach across every project we
           undertake. All our workers and operators are equipped with certified
-          PPE kits to ensure complete on-site protection. <br />
+          PPE kits to ensure complete on-site protection.
+          <br />
           <br /> Every job begins with a detailed Job Hazard Analysis to
           identify risks early. We prepare precise lift plans and conduct
           thorough risk assessments to guarantee controlled and predictable

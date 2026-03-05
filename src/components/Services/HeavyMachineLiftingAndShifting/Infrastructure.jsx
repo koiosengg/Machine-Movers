@@ -12,8 +12,8 @@ function Infrastructure() {
       <header className="template-heading">
         <h2>Our Infrastructure </h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur. At et consequat nunc nullam.
-          Mattis ac arcu sodales id quam urna.
+          Advanced equipment, skilled workforce, and structured processes for
+          safe industrial machinery handling
         </p>
       </header>
       <div className="home-equipment">
