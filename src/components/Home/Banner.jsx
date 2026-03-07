@@ -15,7 +15,7 @@ const galleryData = [
     img: GalleryImg2,
     title: "We Shift The Machines Using",
     desc: "Rollers and Hydralic Jacks",
-    link: "https://youtu.be/cXZxdMAYFcc?si=uAtfWmQg3DA-JGmN",
+    link: "https://youtu.be/HbjPpJwUydY?si=1_xAU2PsavPaqLI1",
   },
   {
     img: GalleryImg3,
