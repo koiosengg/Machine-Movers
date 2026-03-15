@@ -1121,6 +1121,10 @@ html {
 
 /* About */
 
+.about-banner{
+  height: auto;
+}
+
 .other-banner .home-banner-gallery::before {
   display: none;
 }
